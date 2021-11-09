@@ -152,6 +152,7 @@ class _ReviewWriteState extends State<ReviewWrite> {
 
       streamSubscription.cancel();
       Navigator.pop(this.context);
+      Navigator.pop(this.context);
       return path;
     } catch (e) {
       print(e);
