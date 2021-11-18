@@ -1,17 +1,35 @@
-# tong_myung_hotel
+# 동명 도미토리
 
-A new Flutter application.
+### **프로젝트 개요**
+동명대학교 기숙사를 숙박시설로 사용할 수 있다고 가정하고 만든 숙박시설 예약 앱입니다.
 
-## Getting Started
+학부생3학년때 관광경영학과 교수님의 의뢰를 받아 앱을 제작하였습니다.
 
-This project is a starting point for a Flutter application.
+### **프로젝트 기여도**
 
-A few resources to get you started if this is your first Flutter project:
+기획 70%
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+개발 65%
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# TongmyongDomitory" 
+### **담당한 기능**
+
+1.예약하기
+
+2.예약방식 선택
+
+3.실시간 고객센터
+
+### **사용 기술**
+
+1.FireBase
+
+2.Flutter
+
+3.Android SDK
+
+
+### **시연 영상**
+
+
+
+
