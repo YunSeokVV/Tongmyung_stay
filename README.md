@@ -1,87 +1,79 @@
-### 동명 도미토리
+# <p align="center">동명 도미토리 </p>
 
-# **프로젝트 개요**
+##### 
 
-동명대학교 기숙사를 숙박시설로 사용할 수 있다고 가정하고 만든 숙박시설 예약 앱입니다.
-
-학부생3학년때 관광경영학과 교수님의 의뢰를 받아 앱을 제작하였습니다.
-
-# **프로젝트 기여도**
-
-기획 70%
-
-개발 65%
-
-# **기능**
-
-### 1.회원가입
-
-이메일 형식으로 회원가입을 할 수 있습니다. 구글 계정으로 회원가입이 가능합니다.
-
-### 2.로그인
-
-사용자가 회원가입한 계정으로 로그인 합니다.
-
-### 3.예약하기
-
-사용자가 기숙사에서 머무르고 싶은 날짜를 설정합니다. 
-
-머무르는 사람들의 성별, 원하는 방의 타입을 설정할 수 있습니다. (기숙사의 특성상 성별에 따라 층과 건물이 구분되기 때문에 선택 옵션에 넣었습니다.)
-
-사용자가 머무르고 싶은 날짜에 남은 방이 존재하지 않다면 ToastMessage로 남은 방이 없다고 알려줍니다.
-
-남은 방이 존재한다면 예약이 진행됩니다.
-
-### 4.예약방식 선택
-
-단체손님의 경우 방단위로 예약할 수 있습니다.
-
-혼자서 여행을 온 경우 침대(bed)단위로 예약할 수 있습니다. 
-
-게스트하우스와 같은 형식으로 새로운 친구들을 사귈 수 있습니다.
-
-### 5.실시간 고객센터
-
-기숙사측에 문의사항이 있는 손님들을 위해 만든 기능입니다.
-카카오톡 오픈채팅API를 사용해서 구현했으며 기숙사측과 앱의 사용자가 서로 얘기를 할 수 있습니다.
-
-### 6.별점 및 후기
-
-자신이 예약했던 방에 대해 별점, 리뷰를 작성할 수 있습니다. 이미지 등록이 가능합니다.
+<p align="center">대학교 기숙사를 숙박시설로 사용할 수 있다고 가정하고 만든 숙박시설 예약 앱입니다. 
+<br>학부생3학년때 관광경영학과 교수님의 의뢰를 받아 앱을 제작하였습니다.</p>
 
 
-### 7. 마이페이지
 
-사용자의 정보인 이름, 이메일, 휴대폰 번호를 확인할 수 있습니다. 
-
-
-예약 내역을 확인하고 예약을 취소할 수 있습니다.
-
-이름, 이메일, 휴대폰 번호, 비밀번호 변경이 가능합니다.
+개발 인원 : 2명 <br>
+개발 기간 : 4개월
 
 
-### **담당한 기능**
 
-1.예약하기
+**목차**
 
-2.예약방식 선택
-
-3.실시간 고객센터
-
-# **사용 기술**
-
-1.FireBase
-사용자의 예약 정보, 각 층별로 남아있는 방의 개수 등을 표현할 때 FireStore를 사용하였습니다.
-
-2.Flutter
-이 앱은 플러터로 제작되었습니다.
-
-3.Android SDK
+1. 앱의기능
+2. 사용한 기술들
+3. 시연영상 링크
 
 
-# **시연 영상**
-https://youtu.be/l3bmaCyo8WA
+
+#  1. 앱의 기능
 
 
 
 
+![](https://private-user-images.githubusercontent.com/43668299/337149075-f6bd54bb-c482-4668-9d69-920e0474fc0f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc2NTYzMDcsIm5iZiI6MTcxNzY1NjAwNywicGF0aCI6Ii80MzY2ODI5OS8zMzcxNDkwNzUtZjZiZDU0YmItYzQ4Mi00NjY4LTlkNjktOTIwZTA0NzRmYzBmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjA2VDA2NDAwN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk0YTM5MzhiNDQ5MzI4OGIxMTRmMjEwMmJjODYwZGRhMGI0YTdmY2ZjZTZmZDJmZTAyNDQwODJhY2Q1YTNjOTMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.0TaEQPrDd3nABlY9i3SOX03mtFf7JS43QtdwCG3Cm_o)
+
+
+
+![](https://private-user-images.githubusercontent.com/43668299/337149494-6d28d968-c6b5-41ef-8908-d9ce9faa78f3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc2NTYzMDcsIm5iZiI6MTcxNzY1NjAwNywicGF0aCI6Ii80MzY2ODI5OS8zMzcxNDk0OTQtNmQyOGQ5NjgtYzZiNS00MWVmLTg5MDgtZDljZTlmYWE3OGYzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjA2VDA2NDAwN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTMzYjJiZGYxM2E4MjM2Yjg5YjY2MWVkYjJlNjNkYmMyOGVhNWEzMmE4NjcxYjUxZjk5N2EzM2M2ZGU4YzU2OWMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.nXX8ZBko6bOjQbIZy3vyNqLiHhFGpj2az4k3AiU5OkI)
+
+
+
+# 기능 상세설명
+
+**1.회원가입/로그인**
+
+ 회원가입과 로그인이 가능합니다.
+
+ 구글계정으로 로그인이 가능합니다.
+
+**2.예약방식 선택**
+
+ 사용자가 원하는 형식으로 예약방식을 선택할 수 있습니다.
+
+**3.예약하기**
+
+ 입실, 퇴실날짜를 선택하고 인원수를 선택해서 예약할 수 있습니다.
+
+**4.별점 및 후기**
+
+ 별점과 후기를 남길 수 있습니다.
+
+**5.카카오톡 오픈채팅**
+
+ 카카오톡 오픈채팅을 통해 고객상담을 할 수 있습니다.
+
+**6.마이 페이지**
+
+ 예약정보를 확인할 수 있습니다.
+
+# 2. 사용한 기술 & 라이브러리
+
+- Language : Dart
+
+- Firebase Firestore
+
+- Firebase Storage
+
+- Firebase Authentication
+
+  
+
+
+# 3. 시연영상 링크
+
+https://www.youtube.com/watch?v=l3bmaCyo8WA&feature=youtu.be
